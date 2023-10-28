@@ -68,7 +68,7 @@ function onClickUpdate() {
         alert("error: random_count cannot be less than 1");
     }
 
-    const [x, y] = generateData();
+    const [x, y] = generateData(count);
 
     chart.data.labels = x
     chart.data.datasets = [{
